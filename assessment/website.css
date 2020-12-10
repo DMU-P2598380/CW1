@@ -1,0 +1,129 @@
+
+/* Background done with gradient and option for browsers that do not support gradients */
+body {
+  background: #000000;
+  background: -moz-linear-gradient(top, #000000 0%, #666666 70%, #999999 100%);
+  background: -webkit-linear-gradient(top, #000000 0%, #666666 70%, #999999 100%);
+  background: linear-gradient(to bottom, #000000 0%, #666666 70%, #999999 100%);
+}
+
+  /* Photo adjusted to the page size thanks to "width" and border which I used on the whole page */
+
+.title {
+      width: 100%;
+      background-color: black;
+      box-sizing: border-box;
+      -webkit-box-shadow: 5px 5px 15px 5px #B22222;
+      box-shadow: 5px 5px 15px 5px #B22222;
+      border-radius: 10px;
+  }
+
+  /* Navigation buttons needed to be separated so I added them to the separate class
+  and used different elements to give them a special look */
+
+  .button {
+    float: left;
+    width: 45%;
+    text-align: center;
+    background-color: black;
+    transition-duration: 0.2s;
+    box-sizing: border-box;
+    margin: 2%;
+    -webkit-box-shadow: 5px 5px 15px 5px #B22222;
+    box-shadow: 5px 5px 15px 5px #B22222;
+    font-family: 'Cinzel', serif;
+    border-radius: 10px;
+}
+
+  /* Adding specjal color for a element */
+
+a {
+  color: #B22222;
+}
+
+/* I added a div element to css because of that I want to each of my div elements could look the same because
+ I used a lot of them on the site */
+
+div {
+  float: left;
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+  width: 94%;
+  margin: 2%;
+  -webkit-box-shadow: 5px 5px 15px 5px #B22222;
+  box-shadow: 5px 5px 15px 5px #B22222;
+  box-sizing: border-box;
+  font-family: 'Cinzel', serif;
+  border-radius: 10px;
+}
+
+ /* Adding settings like color and font to h2 and h3 */
+
+h2 {
+  color: #B22222;
+  font-family: 'Cinzel', serif;
+}
+h3 {
+  color: #B22222;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+}
+
+ /* Added float left and center to photo class and h4 so that the photos are next to the text */
+ /* Something I had a big problem with was setting the text next to the photo.
+    It's still not perfect because I would like to set it in exactly the chosen place and I could only do it by writing right left or middle */
+
+.photo {
+    float: left;
+    width: 20%;
+    margin: 1%;
+}
+h4 {
+  float: center;
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+p {
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+b {
+  color: #B22222;
+}
+video {
+  margin: 2%;
+  width: 94%;
+  box-sizing: border-box;
+  -webkit-box-shadow: 5px 5px 15px 5px #B22222;
+  box-shadow: 5px 5px 15px 5px #B22222;
+  border-radius: 10px;
+  background-color: black;
+}
+audio {
+  margin: 2%;
+  width: 94%;
+  box-sizing: border-box;
+  -webkit-box-shadow: 5px 5px 15px 5px #B22222;
+  box-shadow: 5px 5px 15px 5px #B22222;
+  border-radius: 10px;
+}
+
+ /* I have figured out a lot to make the fotter look exactly as I want but I supported the website w3school.com
+ */
+
+fotter {
+  width: 94%;
+  box-sizing: border-box;
+  -webkit-box-shadow: 5px 5px 15px 5px #B22222;
+  box-shadow: 5px 5px 15px 5px #B22222;
+  box-sizing: border-box;
+  display: inline-flex;
+  margin: 2%;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
